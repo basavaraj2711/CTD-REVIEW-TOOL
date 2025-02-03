@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import google.generativeai as genai
 
 # --- Configuration ---
-API_KEY = "AIzaSyBvKaTmDoYd1RfwwzFzKF5dsPllM6xcdYE"  # Replace with your actual API key
+API_KEY = "AIzaSyBpeqtqemeM0YGxwxE3DTzc3Cny-w2Q_GA"  # Replace with your actual API key
 genai.configure(api_key=API_KEY)
 
 # --- Helper to Embed Local Image as Base64 ---
